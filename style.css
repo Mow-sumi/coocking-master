@@ -1,0 +1,56 @@
+*{
+    margin: opx;
+    padding: opx;
+    box-sizing: border-box;
+}
+# search-box{
+    width: 50%;
+    margin: auto;
+
+}
+body{
+    padding-top: 1px;
+    background-color:coral ;
+    padding-left: 300px;
+   
+}
+#search-box input,button{
+    width: 75%;
+    border: 1px solid white ;
+    border-right:0px;
+    font-size: 18px;
+    padding: 12px;;
+    color: white;
+    background: transparent;
+    
+}
+#search-box button{
+    width: 25%;
+    background: #eee;
+    color:black;
+    float: right;
+    border-left: 0px;
+    
+}
+#search-box input:hover{
+opacity: 8;
+}
+#search-box button:hover{
+    opacity: 8;
+    }
+    #meal-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .meal{
+        border: 1px solid goldenrod;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+
+    }
+    .mealName{
+        font-size: 45px;
+        color: green;
+    }
